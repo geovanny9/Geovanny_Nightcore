@@ -1,0 +1,217 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/img1.jpg');
+}
+  
+header {
+    background-color: rgba(100, 100,100, 0.5);
+    color: #83be40;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+nav li {
+    margin: 0 10px;
+}
+  
+nav a {
+    color: #83be40;
+    text-decoration: none;
+ }
+  
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+footer {
+    background-color: rgba(100, 100,100, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    color: #83be40;
+    font-family: arial sans-serif;
+    font-size: xx-large;
+}
+
+h2 {
+    color: #83be40;
+    text-align: center;
+}
+
+.calendar-container1 {
+    background-color: rgba(255, 255, 225, 0.5);
+    text-align: center;
+    color: rgb(108, 14, 99);
+    width: 500px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.calendar1 {
+    background-color: rgba(255,255, 255, 0.6);
+    border: #333;
+    width:100%;
+    height: 50%;
+}
+
+.calendar1 td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar1 TD:hover{
+    background-color: rgb(32, 28, 28, 0.6);
+}
+
+ .calendar-container2 {
+    background-color: rgba(255, 255, 225, 0.8);
+    text-align: center;
+    color: rgba(255,0, 255, 255);
+    width: 500px;
+    margin-left: 550px;
+    margin-top: 50px;
+    position:absolute;
+}
+
+.calendar2 {
+    background-color: rgba(25,25, 25, 0.4);
+    border: #333;
+    width:100%;
+    height: 50%;
+}
+
+.calendar2 td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar2 TD:hover{
+    background-color: rgb(32, 28, 28, 0.6);
+}
+
+.calendar-container3 {
+    background-color: rgba(204, 255,229, 0.8);
+    text-align: center;
+    color: rgba(238, 130,238);
+    width: 500px;
+    margin-left: 1100px;
+    margin-top: 50px;
+    position:absolute;
+}
+
+ .calendar3 {
+    background-color: rgba(29, 30,38, 0.4);
+    border: #333;
+    width:100%;
+    height: 50%;
+}
+
+.calendar3 td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+ .calendar3 TD:hover{
+    background-color: rgb(32, 28, 28, 0.6);
+}
+
+.calendar-container4 {
+    background-color: rgba(252, 148,252, 0.4);
+    text-align: center;
+    color: rgba(236, 100,145);
+    width: 500px;
+    margin-top: 302px;
+    position:absolute;
+}
+
+ .calendar4 {
+    background-color: rgba(0, 0,0, 0.4);
+    border: #333;
+    width:100%;
+    height: 50%;
+}
+
+.calendar4 td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+ .calendar4 TD:hover{
+    background-color: rgb(32, 28, 28, 0.6);
+}
+
+.calendar-container5{
+    background-color: rgba(100, 100,100, 0.6);
+    text-align: center;
+    color: rgba(183, 232, 216);
+    width: 500px;
+    margin-top: 302px;
+    margin-left: 550px;
+    position:absolute;
+}
+
+ .calendar5 {
+    background-color: rgba(0, 0,0, 0.4);
+    border: #333;
+    width:100%;
+    height: 50%;
+}
+
+.calendar5 td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+ .calendar5 TD:hover{
+    background-color: rgb(32, 28, 28, 0.6);
+}
+
+.calendar-container6{
+    background-color: rgba(114, 229,242, 0.4);
+    text-align: center;
+    color: rgba(86, 246, 193);
+    width: 500px;
+    margin-left: 1100px;
+    margin-top: 302px;
+    position:absolute;
+}
+
+ .calendar6 {
+    background-color: rgba(100, 100,100, 0.6);
+    border: #333;
+    width:100%;
+    height: 50%;
+}
+
+.calendar6 td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+ .calendar6 TD:hover{
+    background-color: rgb(32, 28, 28, 0.6);
+}
